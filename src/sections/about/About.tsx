@@ -35,13 +35,33 @@ export default function About() {
             </p>
 
             {/* CV Download */}
-            <a
-              href="/cv.pdf"
-              download
-              className="inline-flex items-center gap-2 bg-green-400 text-black font-semibold px-5 py-2.5 rounded-lg hover:bg-green-300 transition-colors duration-200 w-fit mt-2"
-            >
-              Download CV
-            </a>
+            <div className="flex gap-3 mt-2">
+               <a
+                href="/cv-en.pdf"
+                download="Devinder_Singh_CV.pdf"
+                className="inline-flex items-center gap-2 bg-green-400 text-black font-semibold px-5 py-2.5 rounded-lg hover:bg-green-300 transition-colors duration-200"
+              >
+                CV English
+              </a>
+
+              <a
+                href="/cv-sv.pdf"
+                download="Devinder_Singh_CV_Svenska.pdf"
+                className="inline-flex items-center gap-2 border border-green-400 text-green-400 font-semibold px-5 py-2.5 rounded-lg hover:bg-green-400 hover:text-black transition-colors duration-200"
+              >
+                CV Svenska
+              </a>
+            </div>
+
+          </div>
+
+          {/* Right — Info Cards */}
+          <div className="grid grid-cols-1 gap-4">
+            <div className="bg-white/5 border border-white/10 rounded-xl p-5">
+              <p className="text-green-400 text-sm font-semibold mb-1">Education</p>
+              <p className="text-white font-medium">Chas Academy — Fullstack Developer</p>
+              <p className="text-gray-500 text-sm">Sep 2025 – Jun 2027 · Stockholm</p>
+            </div>
           </div>
 
           {/* Right — Info Cards */}
