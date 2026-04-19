@@ -44,4 +44,14 @@ export const projects = [
     live: "",
     status: "upcoming",
   },
+
+  {
+  title: "Social Media App",
+  description:
+    "Full social media application built alongside a mentor, learning week by week. Features include cloud storage with AWS, and progressively adding real-world integrations and architecture patterns.",
+  tags: ["React", "Bun", "AWS", "TypeScript"],
+  github: "",
+  live: "",
+  status: "ongoing",
+},
 ];

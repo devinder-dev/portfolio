@@ -13,7 +13,7 @@ export const skills = [
   },
   {
     category: "DevOps & Tools",
-    items: ["Docker", "Git", "GitHub", "Postman", "VS Code"],
+    items: ["Docker", "Git", "GitHub", "Postman", "VS Code", "CI/CD", "GitLab", "Github Actions"],
   },
   {
     category: "AI & Integration",
@@ -21,6 +21,16 @@ export const skills = [
   },
   {
     category: "Security",
-    items: ["JWT Auth", "Cybersecurity", "Input Validation", "HTTPS"],
+    items: ["JWT Auth", "Cybersecurity", "Input Validation", "HTTPS", "Data Encryption", "OAuth"],
   },
+
+  {
+    category: "Testing",
+    items: ["Jest", "React Testing Library", "Cypress"],
+  },
+
+  {
+    category: "Productivity",
+    items: ["Scrum", "Kanban", "Jira", "Notion", "Trello"],
+  }
 ];
