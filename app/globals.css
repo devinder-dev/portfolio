@@ -13,6 +13,7 @@
   --border-strong: rgba(0, 0, 0, 0.3);
   --surface: rgba(0, 0, 0, 0.04);
   --surface-strong: rgba(0, 0, 0, 0.06);
+  --dot-color: rgba(0, 0, 0, 0.06);
 }
 
 .dark {
@@ -26,4 +27,10 @@
   --border-strong: rgba(255, 255, 255, 0.5);
   --surface: rgba(255, 255, 255, 0.05);
   --surface-strong: rgba(255, 255, 255, 0.1);
+  --dot-color: rgba(255, 255, 255, 0.06);
+}
+
+.hero-bg {
+  background-image: radial-gradient(circle, var(--dot-color) 1px, transparent 1px);
+  background-size: 28px 28px;
 }
