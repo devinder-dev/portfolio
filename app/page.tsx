@@ -6,7 +6,7 @@ import Contact from "@/sections/contact/Contact";
 
 export default function Home() {
   return (
-    <main className="bg-[#0a0a0a] min-h-screen">
+    <main className="bg-(--bg-primary) min-h-screen">
       <Navbar />
       <Hero />
       <About />
