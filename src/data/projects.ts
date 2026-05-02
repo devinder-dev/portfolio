@@ -46,6 +46,15 @@ export const projects = [
   },
 
   {
+    title: "Fakturly",
+    description:
+      "A fullstack invoicing and payment management SaaS with two portals. Admins can create clients, generate invoices automatically on a schedule, track payment status in real time and manage overdue accounts with automated late fees and email reminders. Clients get their own portal to view invoices, payment history and account status.",
+    tags: ["React", "Node.js", "Fastify", "PostgreSQL", "Stripe", "node-cron"],
+    github: "",
+    live: "",
+    status: "upcoming",
+  },
+  {
   title: "Social Media App",
   description:
     "Full social media application built alongside a mentor, learning week by week. Features include cloud storage with AWS, and progressively adding real-world integrations and architecture patterns.",
