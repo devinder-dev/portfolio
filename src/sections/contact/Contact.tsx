@@ -41,7 +41,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="bg-[#0f0f0f] py-24 px-6">
+    <section id="contact" className="bg-(--bg-secondary) py-24 px-6">
       <div className="max-w-5xl mx-auto">
 
         {/* Section Label */}
@@ -50,11 +50,11 @@ export default function Contact() {
         </p>
 
         {/* Heading */}
-        <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+        <h2 className="text-3xl sm:text-4xl font-bold text-(--text-primary) mb-4">
           Get in touch
         </h2>
 
-        <p className="text-gray-400 mb-12 max-w-xl">
+        <p className="text-(--text-secondary) mb-12 max-w-xl">
           Looking for a motivated fullstack developer for LIA or a project?
           Send me a message and I will get back to you.
         </p>
@@ -70,7 +70,7 @@ export default function Contact() {
               placeholder="Your Name"
               value={form.name}
               onChange={handleChange}
-              className="bg-white/5 border border-white/10 text-white placeholder-gray-500 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-green-400 transition-colors duration-200"
+              className="bg-(--surface) border border-(--border) text-(--text-primary) placeholder:text-(--text-muted) rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-green-400 transition-colors duration-200"
             />
 
             <input
@@ -79,7 +79,7 @@ export default function Contact() {
               placeholder="Your Email"
               value={form.email}
               onChange={handleChange}
-              className="bg-white/5 border border-white/10 text-white placeholder-gray-500 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-green-400 transition-colors duration-200"
+              className="bg-(--surface) border border-(--border) text-(--text-primary) placeholder:text-(--text-muted) rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-green-400 transition-colors duration-200"
             />
 
             <textarea
@@ -88,7 +88,7 @@ export default function Contact() {
               rows={5}
               value={form.message}
               onChange={handleChange}
-              className="bg-white/5 border border-white/10 text-white placeholder-gray-500 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-green-400 transition-colors duration-200 resize-none"
+              className="bg-(--surface) border border-(--border) text-(--text-primary) placeholder:text-(--text-muted) rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-green-400 transition-colors duration-200 resize-none"
             />
 
             <button
@@ -114,24 +114,24 @@ export default function Contact() {
           {/* Right — Info */}
           <div className="flex flex-col gap-6 justify-start">
 
-            <div className="bg-white/5 border border-white/10 rounded-xl p-5">
+            <div className="bg-(--surface) border border-(--border) rounded-xl p-5">
               <p className="text-green-400 text-sm font-semibold mb-1">Email</p>
-              <p className="text-white">dsj.singh1998@gmail.com</p>
+              <p className="text-(--text-primary)">dsj.singh1998@gmail.com</p>
             </div>
 
-            <div className="bg-white/5 border border-white/10 rounded-xl p-5">
+            <div className="bg-(--surface) border border-(--border) rounded-xl p-5">
               <p className="text-green-400 text-sm font-semibold mb-1">LinkedIn</p>
-              <p className="text-white">linkedin.com/in/devinder-dev</p>
+              <p className="text-(--text-primary)">linkedin.com/in/devinder-dev</p>
             </div>
 
-            <div className="bg-white/5 border border-white/10 rounded-xl p-5">
+            <div className="bg-(--surface) border border-(--border) rounded-xl p-5">
               <p className="text-green-400 text-sm font-semibold mb-1">GitHub</p>
-              <p className="text-white">github.com/devinder-dev</p>
+              <p className="text-(--text-primary)">github.com/devinder-dev</p>
             </div>
 
-            <div className="bg-white/5 border border-white/10 rounded-xl p-5">
+            <div className="bg-(--surface) border border-(--border) rounded-xl p-5">
               <p className="text-green-400 text-sm font-semibold mb-1">Location</p>
-              <p className="text-white">Stockholm, Sweden</p>
+              <p className="text-(--text-primary)">Stockholm, Sweden</p>
             </div>
 
           </div>

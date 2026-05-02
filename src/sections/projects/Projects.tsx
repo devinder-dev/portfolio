@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Projects() {
   return (
-    <section id="projects" className="bg-[#0a0a0a] py-24 px-6">
+    <section id="projects" className="bg-(--bg-primary) py-24 px-6">
       <div className="max-w-5xl mx-auto">
 
         {/* Section Label */}
@@ -12,7 +12,7 @@ export default function Projects() {
         </p>
 
         {/* Heading */}
-        <h2 className="text-3xl sm:text-4xl font-bold text-white mb-12">
+        <h2 className="text-3xl sm:text-4xl font-bold text-(--text-primary) mb-12">
           What I have built
         </h2>
 
@@ -21,7 +21,7 @@ export default function Projects() {
           {projects.map((project) => (
             <div
               key={project.title}
-              className="bg-white/5 border border-white/10 rounded-xl p-6 flex flex-col justify-between gap-4"
+              className="bg-(--surface) border border-(--border) rounded-xl p-6 flex flex-col justify-between gap-4"
             >
               {/* Top */}
               <div className="flex flex-col gap-3">
@@ -33,7 +33,7 @@ export default function Projects() {
                       ? "bg-green-400/10 text-green-400"
                       : project.status === "ongoing"
                       ? "bg-yellow-400/10 text-yellow-400"
-                      : "bg-white/10 text-gray-400"
+                      : "bg-(--surface-strong) text-(--text-secondary)"
                   }`}
                 >
                   {project.status === "completed"
@@ -44,12 +44,12 @@ export default function Projects() {
                 </span>
 
                 {/* Title */}
-                <h3 className="text-white font-bold text-lg">
+                <h3 className="text-(--text-primary) font-bold text-lg">
                   {project.title}
                 </h3>
 
                 {/* Description */}
-                <p className="text-gray-400 text-sm leading-relaxed">
+                <p className="text-(--text-secondary) text-sm leading-relaxed">
                   {project.description}
                 </p>
 
@@ -58,7 +58,7 @@ export default function Projects() {
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="bg-white/10 text-gray-300 text-xs px-2.5 py-1 rounded-full"
+                      className="bg-(--surface-strong) text-(--text-secondary) text-xs px-2.5 py-1 rounded-full"
                     >
                       {tag}
                     </span>
@@ -72,7 +72,7 @@ export default function Projects() {
                   <Link
                     href={project.github}
                     target="_blank"
-                    className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
+                    className="text-sm text-(--text-secondary) hover:text-(--text-primary) transition-colors duration-200"
                   >
                     GitHub →
                   </Link>
@@ -87,7 +87,7 @@ export default function Projects() {
                   </Link>
                 )}
                 {!project.github && !project.live && (
-                  <p className="text-gray-600 text-sm">Coming soon</p>
+                  <p className="text-(--text-muted) text-sm">Coming soon</p>
                 )}
               </div>
             </div>
