@@ -20,7 +20,7 @@ export default function Hero() {
         <FadeUp delay={0.1}>
           <h1 className="text-4xl sm:text-6xl font-bold text-(--text-primary) leading-tight mb-6">
             Hi, I&apos;m Devinder Singh <br />
-            <span className="bg-gradient-to-r from-green-400 to-emerald-300 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-green-400 to-emerald-300 bg-clip-text text-transparent">
               Fullstack Developer
             </span>
           </h1>
