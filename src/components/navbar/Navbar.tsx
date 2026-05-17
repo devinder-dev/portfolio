@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { useTheme } from "@/components/theme/ThemeProvider";
+import { useActiveSection } from "@/hooks/useActiveSection";
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -14,6 +15,7 @@ const navLinks = [
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const { theme, toggle } = useTheme();
+  const activeSection = useActiveSection(["about", "skills", "projects", "contact"]);
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-(--bg-primary) border-b border-(--border)">
@@ -30,7 +32,11 @@ export default function Navbar() {
             <li key={link.label}>
               <Link
                 href={link.href}
-                className="text-(--text-secondary) hover:text-(--text-primary) transition-colors duration-200 text-sm"
+                className={`transition-colors duration-200 text-sm ${
+                  activeSection === link.href.replace("#", "")
+                    ? "text-green-400"
+                    : "text-(--text-secondary) hover:text-(--text-primary)"
+                }`}
               >
                 {link.label}
               </Link>
@@ -107,7 +113,11 @@ export default function Navbar() {
               key={link.label}
               href={link.href}
               onClick={() => setMenuOpen(false)}
-              className="text-(--text-secondary) hover:text-(--text-primary) transition-colors duration-200 text-sm"
+              className={`transition-colors duration-200 text-sm ${
+                  activeSection === link.href.replace("#", "")
+                    ? "text-green-400"
+                    : "text-(--text-secondary) hover:text-(--text-primary)"
+                }`}
             >
               {link.label}
             </Link>

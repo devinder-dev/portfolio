@@ -39,11 +39,12 @@ export default function Contact() {
             Contact
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold text-(--text-primary) mb-4">
-            Get in touch
+            Let&apos;s talk
           </h2>
           <p className="text-(--text-secondary) mb-12 max-w-xl">
-            Looking for a motivated fullstack developer for LIA or a project?
-            Send me a message and I will get back to you.
+            If you&apos;re looking for a developer who&apos;ll show up, ask good questions,
+            and actually finish what they start — I&apos;d love to hear from you.
+            Send a message and I&apos;ll reply within a day.
           </p>
         </FadeUp>
 

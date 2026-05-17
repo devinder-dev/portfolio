@@ -11,7 +11,7 @@ export const projects = [
   {
     title: "Chat App",
     description:
-      "Real-time chat application built with Socket.io and TypeScript. Users can join rooms and exchange messages instantly.",
+      "Built to understand WebSockets from scratch. Real-time rooms, instant messaging, TypeScript throughout. The kind of project where you feel it working the moment messages appear.",
     tags: ["TypeScript", "Socket.io", "Node.js"],
     github: "https://github.com/devinder-dev/Chat-App",
     live: "",
@@ -20,7 +20,7 @@ export const projects = [
   {
     title: "AI Assistant App",
     description:
-      "An AI-powered quiz generator that transforms study notes into multiple choice questions using the Gemini API.",
+      "Fed it my own study notes and it turned them into quiz questions. Built to actually help me study — ended up teaching me more about the Gemini API than anything else.",
     tags: ["React", "TypeScript", "Gemini API"],
     github: "https://github.com/devinder-dev/Al-Assistance-App",
     live: "",
@@ -29,7 +29,7 @@ export const projects = [
   {
     title: "Djur App",
     description:
-      "Group project built with agile methodology using Scrum. A fullstack animal information app where I handled backend architecture and API design.",
+      "Team project run with Scrum. I owned the backend — architecture, API design, the whole data layer. Good experience working with a group where everyone has opinions about the code.",
     tags: ["React", "Node.js", "Agile", "Scrum"],
     github: "",
     live: "",
@@ -44,7 +44,6 @@ export const projects = [
     live: "",
     status: "upcoming",
   },
-
   {
     title: "Fakturly",
     description:
@@ -55,12 +54,12 @@ export const projects = [
     status: "upcoming",
   },
   {
-  title: "Social Media App",
-  description:
-    "Full social media application built alongside a mentor, learning week by week. Features include cloud storage with AWS, and progressively adding real-world integrations and architecture patterns.",
-  tags: ["React", "Bun", "AWS", "TypeScript"],
-  github: "",
-  live: "",
-  status: "ongoing",
-},
+    title: "Social Media App",
+    description:
+      "Building this week by week with a mentor. Every feature teaches something new — right now that's AWS for storage and how real production apps are structured differently from tutorials.",
+    tags: ["React", "Bun", "AWS", "TypeScript"],
+    github: "",
+    live: "",
+    status: "ongoing",
+  },
 ];

@@ -19,20 +19,22 @@ export default function About() {
           {/* Left — Text */}
           <FadeUp delay={0.1} className="flex flex-col gap-6 text-(--text-secondary) text-base leading-relaxed">
             <p>
-              I&apos;m a fullstack developer student at Chas Academy in Stockholm,
-              building modern web applications from frontend to backend.
-              I care about clean code, good structure and building things
-              that actually work.
+              I&apos;m studying fullstack development at Chas Academy in Stockholm.
+              I started because I wanted to understand how things are built —
+              not just use them. That curiosity stuck. Now I spend my time
+              between React frontends, Fastify backends, and figuring out
+              how to connect the two cleanly.
             </p>
             <p>
-              Alongside my fullstack studies I completed a course in
-              cybersecurity — which shapes how I think about API design,
-              authentication and how user data should be handled.
+              I also completed a cybersecurity course alongside my main studies.
+              It changed how I think about the code I write — I don&apos;t just ask
+              &ldquo;does it work&rdquo;, I ask &ldquo;could someone break it&rdquo;.
+              That mindset shows up in how I design APIs and handle user data.
             </p>
             <p>
-              I work well in teams, I&apos;m used to agile workflows with Scrum
-              and Kanban, and I&apos;m always looking to improve how I build and
-              think about software.
+              Outside of code I&apos;m the kind of person who reads docs for fun
+              and rebuilds things just to understand them better. I&apos;ve worked
+              in teams using Scrum and Kanban, and I actually like standups.
             </p>
 
             <div className="flex gap-3 mt-2">

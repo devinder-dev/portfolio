@@ -29,9 +29,10 @@ export default function Hero() {
         {/* Subheading */}
         <FadeUp delay={0.2}>
           <p className="text-(--text-secondary) text-lg sm:text-xl max-w-2xl mb-10 leading-relaxed">
-            I build modern web applications from frontend to backend —
-            React, Node.js, TypeScript and AI integration.
-            Based in Stockholm, seeking LIA November 2026.
+            I&apos;m studying at Chas Academy in Stockholm and I spend most of my time
+            building things — backends, frontends, the occasional AI integration.
+            I enjoy solving real problems with clean code, and I&apos;m looking for a
+            company where I can do exactly that. LIA from November 2026.
           </p>
         </FadeUp>
 

@@ -4,6 +4,8 @@ import About from "@/sections/about/About";
 import Skills from "@/sections/skills/Skills";
 import Projects from "@/sections/projects/Projects";
 import Contact from "@/sections/contact/Contact";
+import Footer from "@/components/footer/Footer";
+import BackToTop from "@/components/ui/BackToTop";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
+      <BackToTop />
     </main>
   );
 }
