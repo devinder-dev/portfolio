@@ -76,6 +76,7 @@ export default function Contact() {
               className="bg-(--surface) border border-(--border) text-(--text-primary) placeholder:text-(--text-muted) rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-green-400 transition-colors duration-200 resize-none"
             />
             <button
+              type="button"
               onClick={handleSubmit}
               disabled={status === "sending"}
               className="bg-green-400 text-black font-semibold px-6 py-3 rounded-xl hover:bg-green-300 transition-colors duration-200 disabled:opacity-50"

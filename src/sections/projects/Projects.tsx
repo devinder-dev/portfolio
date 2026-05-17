@@ -63,6 +63,7 @@ export default function Projects() {
                     <Link
                       href={project.github}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="text-sm text-(--text-secondary) hover:text-(--text-primary) transition-colors duration-200"
                     >
                       GitHub →
@@ -72,6 +73,7 @@ export default function Projects() {
                     <Link
                       href={project.live}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="text-sm text-green-400 hover:text-green-300 transition-colors duration-200"
                     >
                       Live Demo →
