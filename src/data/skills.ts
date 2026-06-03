@@ -5,15 +5,19 @@ export const skills = [
   },
   {
     category: "Backend",
-    items: ["Node.js", "Fastify", "Bun", "REST API"],
+    items: ["Node.js", "Fastify", "Bun", "REST API", "BullMQ"],
   },
   {
     category: "Databases",
-    items: ["MongoDB", "PostgreSQL"],
+    items: ["MongoDB", "PostgreSQL", "Redis"],
   },
   {
     category: "DevOps & Tools",
-    items: ["Docker", "Git", "GitHub", "Postman", "VS Code", "CI/CD", "GitLab", "Github Actions"],
+    items: ["Docker", "Git", "GitHub", "Postman", "VS Code", "CI/CD", "GitLab", "Github Actions", "Nginx", "PM2", "SSH"],
+  },
+  {
+    category: "System Design",
+    items: ["Event-Driven Architecture", "Message-Driven Architecture", "Load Balancing"],
   },
   {
     category: "AI & Integration",
