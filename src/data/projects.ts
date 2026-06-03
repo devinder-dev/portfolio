@@ -31,18 +31,9 @@ export const projects = [
     description:
       "Team project run with Scrum. I owned the backend — architecture, API design, the whole data layer. Good experience working with a group where everyone has opinions about the code.",
     tags: ["React", "Node.js", "Agile", "Scrum"],
-    github: "",
+    github: "https://github.com/devinder-dev/mitt-djur",
     live: "",
-    status: "ongoing",
-  },
-  {
-    title: "AI Web App",
-    description:
-      "An AI-powered app featuring RAG, streaming responses, JWT auth and conversation history. Built to demonstrate real enterprise AI patterns.",
-    tags: ["Next.js", "TypeScript", "RAG", "MongoDB", "AI"],
-    github: "",
-    live: "",
-    status: "upcoming",
+    status: "completed",
   },
   {
     title: "Fakturly",
@@ -54,12 +45,21 @@ export const projects = [
     status: "upcoming",
   },
   {
+    title: "AI Web App",
+    description:
+      "An AI-powered app featuring RAG, streaming responses, JWT auth and conversation history. Built to demonstrate real enterprise AI patterns.",
+    tags: ["Next.js", "TypeScript", "RAG", "MongoDB", "AI"],
+    github: "",
+    live: "",
+    status: "upcoming",
+  },
+  {
     title: "Social Media App",
     description:
-      "Building this week by week with a mentor. Every feature teaches something new — right now that's AWS for storage and how real production apps are structured differently from tutorials.",
+      "Built week by week with a mentor over several months. Covered real production patterns — AWS for storage, auth flows, and how apps are structured differently from anything you learn in a tutorial.",
     tags: ["React", "Bun", "AWS", "TypeScript"],
     github: "",
     live: "",
-    status: "ongoing",
+    status: "completed",
   },
 ];
