@@ -36,6 +36,15 @@ export const projects = [
     status: "completed",
   },
   {
+    title: "Hälsogruppen",
+    description:
+      "Working on a real client project this summer with a small team. It's a workflow-automation engine for a subscription business — sale comes in, the system runs deliveries, shipping and invoicing on its own for months. I'm on backend cards, starting with the auth layer.",
+    tags: ["TypeScript", "Bun", "Fastify", "PostgreSQL", "Nginx"],
+    github: "",
+    live: "",
+    status: "ongoing",
+  },
+  {
     title: "Fakturly",
     description:
       "A fullstack invoicing and payment management SaaS with two portals. Admins can create clients, generate invoices automatically on a schedule, track payment status in real time and manage overdue accounts with automated late fees and email reminders. Clients get their own portal to view invoices, payment history and account status.",
