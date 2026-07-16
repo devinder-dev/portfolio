@@ -13,7 +13,7 @@ export const skills = [
   },
   {
     category: "DevOps & Tools",
-    items: ["Docker", "Git", "GitHub", "Postman", "VS Code", "CI/CD", "GitLab", "Github Actions", "Nginx", "PM2", "SSH"],
+    items: ["Docker", "Git", "GitHub", "Postman", "VS Code", "CI/CD", "GitLab", "Github Actions", "Nginx", "PM2", "SSH", "Cursor"],
   },
   {
     category: "System Design",
@@ -21,7 +21,7 @@ export const skills = [
   },
   {
     category: "AI & Integration",
-    items: ["Anthropic API", "OpenAI", "Gemini", "HuggingFace"],
+    items: ["Anthropic API", "OpenAI", "Gemini", "HuggingFace", "n8n"],
   },
   {
     category: "Security",

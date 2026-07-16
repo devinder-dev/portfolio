@@ -36,6 +36,15 @@ export const projects = [
     status: "completed",
   },
   {
+    title: "SoMe Software",
+    description:
+      "Part-time developer role at SoMe Software — an AI-driven social media SaaS platform helping creators and businesses grow online. I'm building AI and automation features for the product. Real startup work, and it leads into a formal LIA placement starting November 2026.",
+    tags: ["AI", "Automation", "n8n", "SaaS"],
+    github: "",
+    live: "",
+    status: "ongoing",
+  },
+  {
     title: "Hälsogruppen",
     description:
       "Working on a real client project this summer with a small team. It's a workflow-automation engine for a subscription business — sale comes in, the system runs deliveries, shipping and invoicing on its own for months. I'm on backend cards, starting with the auth layer.",
@@ -51,7 +60,7 @@ export const projects = [
     tags: ["React", "Node.js", "Fastify", "PostgreSQL", "Stripe", "node-cron"],
     github: "",
     live: "",
-    status: "upcoming",
+    status: "ongoing",
   },
   {
     title: "AI Web App",
