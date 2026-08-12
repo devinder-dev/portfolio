@@ -36,6 +36,14 @@ export default function About() {
               and rebuilds things just to understand them better. I&apos;ve worked
               in teams using Scrum and Kanban, and I actually like standups.
             </p>
+            <p>
+              Lately the studying has turned into real work — I build AI and
+              automation features part-time at SoMe Software, spent the summer on
+              a client&apos;s subscription-automation backend, and I&apos;ve solved
+              technical cases for companies along the way. Right now I&apos;m also
+              building a RAG system from scratch to properly understand how AI
+              retrieval works.
+            </p>
 
             <div className="flex gap-3 mt-2">
               <a
@@ -59,9 +67,10 @@ export default function About() {
           <div className="grid grid-cols-1 gap-4">
 
             {[
+              { label: "Currently", title: "Part-time Developer — SoMe Software", sub: "Open to junior roles · LIA from Nov 2026" },
               { label: "Education", title: "Chas Academy — Fullstack Developer", sub: "Sep 2025 – Jun 2027 · Stockholm" },
               { label: "Cybersecurity", title: "Cybersäkerhet för yrkesverksamma", sub: "Dec 2025 – Jan 2026 · 25 YH Points" },
-              { label: "Location", title: "Stockholm, Sweden", sub: "Open to hybrid & remote LIA" },
+              { label: "Location", title: "Stockholm, Sweden", sub: "Open to hybrid & remote roles" },
               { label: "Languages", title: "Swedish · English · Punjabi · Hindi", sub: "Fluent in Swedish and English" },
             ].map((card, i) => (
               <FadeUp key={card.label} delay={0.1 + i * 0.08}>

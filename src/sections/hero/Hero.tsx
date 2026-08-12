@@ -12,7 +12,7 @@ export default function Hero() {
         <FadeUp delay={0}>
           <div className="inline-flex items-center gap-2 bg-(--surface) border border-(--border) rounded-full px-4 py-1.5 mb-6">
             <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
-            <span className="text-(--text-secondary) text-sm">Open to LIA 2026</span>
+            <span className="text-(--text-secondary) text-sm">Open to work · LIA & junior roles</span>
           </div>
         </FadeUp>
 
@@ -32,7 +32,8 @@ export default function Hero() {
             I&apos;m studying at Chas Academy in Stockholm and I spend most of my time
             building things — backends, frontends, the occasional AI integration.
             I enjoy solving real problems with clean code, and I&apos;m looking for a
-            company where I can do exactly that. LIA from November 2026.
+            company where I can do exactly that — as a junior developer now,
+            or LIA from November 2026.
           </p>
         </FadeUp>
 

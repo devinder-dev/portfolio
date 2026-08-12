@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Devinder Singh | Fullstack Developer",
-  description: "Fullstack Developer based in Stockholm. React, Node.js, TypeScript, AI Integration. Seeking LIA November 2026.",
+  description: "Fullstack Developer based in Stockholm. React, Node.js, TypeScript, AI Integration. Seeking junior developer roles and LIA (Nov 2026).",
 };
 
 export default function RootLayout({
