@@ -63,13 +63,13 @@ export const projects = [
     status: "ongoing",
   },
   {
-    title: "AI Web App",
+    title: "RAG Knowledge Assistant",
     description:
-      "An AI-powered app featuring RAG, streaming responses, JWT auth and conversation history. Built to demonstrate real enterprise AI patterns.",
-    tags: ["Next.js", "TypeScript", "RAG", "MongoDB", "AI"],
+      "Building a RAG system from scratch — no LangChain, no hosted vector DB. Documents get chunked, embedded with Voyage AI and stored as vectors in Postgres with pgvector. Ask a question and it finds the closest passages, feeds them to Claude and streams back an answer showing exactly which sources it used. Skipping the frameworks was the point — I wanted to understand every step instead of trusting a black box.",
+    tags: ["TypeScript", "Next.js", "Fastify", "PostgreSQL", "pgvector", "Claude API"],
     github: "",
     live: "",
-    status: "upcoming",
+    status: "ongoing",
   },
   {
     title: "Social Media App",

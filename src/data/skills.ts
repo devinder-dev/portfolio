@@ -9,7 +9,7 @@ export const skills = [
   },
   {
     category: "Databases",
-    items: ["MongoDB", "PostgreSQL", "Redis"],
+    items: ["MongoDB", "PostgreSQL", "Redis", "Supabase", "pgvector"],
   },
   {
     category: "DevOps & Tools",
@@ -21,7 +21,7 @@ export const skills = [
   },
   {
     category: "AI & Integration",
-    items: ["Anthropic API", "OpenAI", "Gemini", "HuggingFace", "n8n"],
+    items: ["Anthropic API", "OpenAI", "Gemini", "HuggingFace", "n8n", "RAG", "Vector Embeddings", "Voyage AI"],
   },
   {
     category: "Security",
