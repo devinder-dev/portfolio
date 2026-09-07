@@ -1,6 +1,6 @@
 # Devinder Singh — Portfolio
 
-My personal developer portfolio. I'm a fullstack developer and student at Chas Academy in Stockholm — currently working part-time building AI and automation features, and open to junior developer roles now and LIA (internship) from November 2026.
+My personal developer portfolio. I'm a fullstack developer and student at Chas Academy in Stockholm — currently a part-time fullstack developer at Flyttsmart, and open to junior developer roles and LIA (internship) from November 2026.
 
 **Live:** [portfolio-two-virid-66.vercel.app](https://portfolio-two-virid-66.vercel.app)
 

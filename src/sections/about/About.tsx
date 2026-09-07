@@ -37,12 +37,13 @@ export default function About() {
               in teams using Scrum and Kanban, and I actually like standups.
             </p>
             <p>
-              Lately the studying has turned into real work — I build AI and
-              automation features part-time at SoMe Software, spent the summer on
-              a client&apos;s subscription-automation backend, and I&apos;ve solved
-              technical cases for companies along the way. Right now I&apos;m also
-              building a RAG system from scratch to properly understand how AI
-              retrieval works.
+              Lately the studying has turned into real work — I&apos;ve built AI and
+              automation features at SoMe Software, spent the summer on a
+              client&apos;s subscription-automation backend, and solved technical
+              cases for companies along the way. One of those cases turned into a
+              job: I&apos;m now a part-time fullstack developer at Flyttsmart,
+              alongside building a RAG system from scratch to properly understand
+              how AI retrieval works.
             </p>
 
             <div className="flex gap-3 mt-2">
@@ -67,7 +68,7 @@ export default function About() {
           <div className="grid grid-cols-1 gap-4">
 
             {[
-              { label: "Currently", title: "Part-time Developer — SoMe Software", sub: "Open to junior roles · LIA from Nov 2026" },
+              { label: "Currently", title: "Fullstack Developer — Flyttsmart", sub: "Part-time · Open to LIA from Nov 2026" },
               { label: "Education", title: "Chas Academy — Fullstack Developer", sub: "Sep 2025 – Jun 2027 · Stockholm" },
               { label: "Cybersecurity", title: "Cybersäkerhet för yrkesverksamma", sub: "Dec 2025 – Jan 2026 · 25 YH Points" },
               { label: "Location", title: "Stockholm, Sweden", sub: "Open to hybrid & remote roles" },

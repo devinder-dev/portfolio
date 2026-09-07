@@ -36,10 +36,10 @@ export const projects = [
     status: "completed",
   },
   {
-    title: "SoMe Software",
+    title: "Flyttsmart",
     description:
-      "Part-time developer role at SoMe Software — an AI-driven social media SaaS platform helping creators and businesses grow online. I'm building AI and automation features for the product. Real startup work, and it leads into a formal LIA placement starting November 2026.",
-    tags: ["AI", "Automation", "n8n", "SaaS"],
+      "The technical case I solved for Flyttsmart turned into a job — I joined in September 2026 as a part-time fullstack developer alongside my studies, working across the stack on a real production product.",
+    tags: ["TypeScript", "React", "Node.js"],
     github: "",
     live: "",
     status: "ongoing",
@@ -59,7 +59,7 @@ export const projects = [
       "A fullstack invoicing and payment management SaaS with two portals. Admins can create clients, generate invoices automatically on a schedule, track payment status in real time and manage overdue accounts with automated late fees and email reminders. Clients get their own portal to view invoices, payment history and account status.",
     tags: ["React", "Node.js", "Fastify", "PostgreSQL", "Stripe", "node-cron"],
     github: "",
-    live: "",
+    live: "https://fakturly-app.vercel.app",
     status: "ongoing",
   },
   {
@@ -70,6 +70,15 @@ export const projects = [
     github: "",
     live: "",
     status: "ongoing",
+  },
+  {
+    title: "SoMe Software",
+    description:
+      "Part-time developer role at SoMe Software — an AI-driven social media SaaS helping creators and businesses grow online. I built AI and automation features for the product. Real startup work, and my first taste of shipping into a live product.",
+    tags: ["AI", "Automation", "n8n", "SaaS"],
+    github: "",
+    live: "",
+    status: "completed",
   },
   {
     title: "Social Media App",
