@@ -68,7 +68,7 @@ export default function About() {
           <div className="grid grid-cols-1 gap-4">
 
             {[
-              { label: "Currently", title: "Fullstack Developer — Flyttsmart", sub: "Part-time · Open to LIA from Nov 2026" },
+              { label: "Currently", title: "Fullstack Developer — Flyttsmart", sub: "Part-time · Open to full-time roles" },
               { label: "Education", title: "Chas Academy — Fullstack Developer", sub: "Sep 2025 – Jun 2027 · Stockholm" },
               { label: "Cybersecurity", title: "Cybersäkerhet för yrkesverksamma", sub: "Dec 2025 – Jan 2026 · 25 YH Points" },
               { label: "Location", title: "Stockholm, Sweden", sub: "Open to hybrid & remote roles" },
