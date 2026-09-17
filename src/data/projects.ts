@@ -4,7 +4,7 @@ export const projects = [
     description:
       "A fullstack backend for managing AI prompts and collections. Built with Bun, Fastify, MongoDB and JWT authentication. Features repository pattern architecture and secure REST API design.",
     tags: ["TypeScript", "Fastify", "MongoDB", "JWT", "Bun"],
-    github: "https://github.com/devinder-dev/Backend-structure-prompt-manager",
+    github: "https://github.com/devinder-dev/ai-prompt-manager",
     live: "",
     status: "completed",
   },
@@ -22,7 +22,7 @@ export const projects = [
     description:
       "Fed it my own study notes and it turned them into quiz questions. Built to actually help me study — ended up teaching me more about the Gemini API than anything else.",
     tags: ["React", "TypeScript", "Gemini API"],
-    github: "https://github.com/devinder-dev/Al-Assistance-App",
+    github: "https://github.com/devinder-dev/AI-Assistant-App",
     live: "",
     status: "completed",
   },
@@ -56,18 +56,18 @@ export const projects = [
   {
     title: "Fakturly",
     description:
-      "A fullstack invoicing and payment management SaaS with two portals. Admins can create clients, generate invoices automatically on a schedule, track payment status in real time and manage overdue accounts with automated late fees and email reminders. Clients get their own portal to view invoices, payment history and account status.",
-    tags: ["React", "Node.js", "Fastify", "PostgreSQL", "Stripe", "node-cron"],
-    github: "",
+      "A fullstack invoicing and payment system built to real financial-production standards, not a CRUD tutorial. Integer öre instead of floats, an append-only ledger, Stripe webhooks with layered idempotency, and full Swedish compliance — VAT per line, SIE export, late interest under räntelagen. Two portals, 400+ backend tests plus unit and e2e coverage.",
+    tags: ["Bun", "Fastify", "Prisma", "PostgreSQL", "Redis", "Stripe", "React"],
+    github: "https://github.com/devinder-dev/fakturly",
     live: "https://fakturly-app.vercel.app",
-    status: "ongoing",
+    status: "completed",
   },
   {
-    title: "RAG Knowledge Assistant",
+    title: "Studiehjälpen",
     description:
-      "Building a RAG system from scratch — no LangChain, no hosted vector DB. Documents get chunked, embedded with Voyage AI and stored as vectors in Postgres with pgvector. Ask a question and it finds the closest passages, feeds them to Claude and streams back an answer showing exactly which sources it used. Skipping the frameworks was the point — I wanted to understand every step instead of trusting a black box.",
-    tags: ["TypeScript", "Next.js", "Fastify", "PostgreSQL", "pgvector", "Claude API"],
-    github: "",
+      "A RAG assistant that answers Swedish student and worker bureaucracy questions — CSN, Försäkringskassan, Skatteverket — grounded in official documents, with the source cited for every answer. Hybrid vector + keyword search over pgvector, built without a RAG framework so I'm debugging my own chunker instead of trusting a black box.",
+    tags: ["Bun", "Fastify", "GraphQL", "PostgreSQL", "pgvector", "Claude API"],
+    github: "https://github.com/devinder-dev/studiehjalpen",
     live: "",
     status: "ongoing",
   },
